@@ -16,10 +16,15 @@ public class TestConcatenacion {
             // c += a + b + "\n"; 500 => 51 ms
             sb.append(a).append(b).append("\n"); // 500 => 0ms brutal 10000 => 6ms
         }
+        // Acelerar el recolector
+        System.gc();
 
         long fin =System.currentTimeMillis();
         System.out.println(fin - inicio);
         System.out.println("sb = " + sb);
+
+
+
 
     }
 }

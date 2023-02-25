@@ -1,5 +1,7 @@
 import clasesystem.AgregarPropiedadesNuestras;
+import clasesystem.EjecutarProgramaSO;
 import clasesystem.PropiedadesSystem;
+import clasesystem.VariablesEntorno;
 import data_calendar.Introduccion;
 import data_calendar.StringADate;
 import data_calendar.claseCalendar;
@@ -47,8 +49,11 @@ public class Main {
         // Introduccion.Fechas();
         // claseCalendar.Calendario();
         // StringADate.Convertir();
-        // PropiedadesSystem.Propiedades();
-        AgregarPropiedadesNuestras.AgregarPropiedades();
+
+        //PropiedadesSystem.Propiedades();
+        // AgregarPropiedadesNuestras.AgregarPropiedades();
+        // VariablesEntorno.Manipular();
+        EjecutarProgramaSO.Ejecutar();
 
 
     }

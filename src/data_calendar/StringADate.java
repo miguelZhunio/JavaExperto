@@ -1,9 +1,12 @@
 package data_calendar;
 
+import com.sun.tools.javac.Main;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
+
 
 public class StringADate {
     private static Scanner in = new Scanner(System.in);
@@ -37,7 +40,10 @@ public class StringADate {
 
 
         } catch (ParseException e) {
-            throw new RuntimeException(e);
+            // throw new RuntimeException(e);
+            System.out.println("La fecha no tiene el fomrato establecido " + e.getMessage());
+            System.err.println("Salimos");
+            // System.exit(1);
         }
     }
 }

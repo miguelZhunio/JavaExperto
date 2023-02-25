@@ -1,4 +1,7 @@
+import clasesystem.AgregarPropiedadesNuestras;
+import clasesystem.PropiedadesSystem;
 import data_calendar.Introduccion;
+import data_calendar.StringADate;
 import data_calendar.claseCalendar;
 import operadores.Teoria;
 import variables.*;
@@ -42,7 +45,10 @@ public class Main {
         // IntroduccionBucle.Operaciones();
         // Introduccion.Teoria();
         // Introduccion.Fechas();
-        claseCalendar.Calendario();
+        // claseCalendar.Calendario();
+        // StringADate.Convertir();
+        // PropiedadesSystem.Propiedades();
+        AgregarPropiedadesNuestras.AgregarPropiedades();
 
 
     }

@@ -1,14 +1,7 @@
-import clasesystem.AgregarPropiedadesNuestras;
-import clasesystem.EjecutarProgramaSO;
-import clasesystem.PropiedadesSystem;
-import clasesystem.VariablesEntorno;
-import data_calendar.Introduccion;
-import data_calendar.StringADate;
-import data_calendar.claseCalendar;
-import operadores.Teoria;
-import variables.*;
-import cadenasCaracteres.*;
-import flujosdecontrol.bucles.IntroduccionBucle;
+import herencia.EjemploHerencia;
+import herencia.EjemploHerenciaConstructores;
+import org.zhu.app.paquete.jardin.EjemploPackage;
+import sobrecargametodo.EjemploSobreCarga;
 
 public class Main {
     public static void main(String[] args) {
@@ -53,8 +46,14 @@ public class Main {
         //PropiedadesSystem.Propiedades();
         // AgregarPropiedadesNuestras.AgregarPropiedades();
         // VariablesEntorno.Manipular();
-        EjecutarProgramaSO.Ejecutar();
-
+        // EjecutarProgramaSO.Ejecutar();
+        // Instancias.init();
+        // VariableEstatica.init();
+        // Rleaciones.init();
+        // EjemploPackage.init();
+        // EjemploSobreCarga.init();
+        // EjemploHerencia.init();
+        EjemploHerenciaConstructores.init();
 
     }
 }
